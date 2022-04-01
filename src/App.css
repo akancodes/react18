@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  background: rgb(85, 22, 126);
+  background: linear-gradient(
+    90deg,
+    rgba(85, 22, 126, 1) 0%,
+    rgba(8, 46, 203, 1) 100%
+  );
+}
+input {
+  font: inherit;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  background-color: #f2e0ff;
+}
+
